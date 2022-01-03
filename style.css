@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(85deg,#8052ec,#d161ff)
+}
+
+.container{
+    max-width: 400px;
+}
+
+ul{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+.search{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+input[type=text],
+input[type=text]:focus{
+    
+    border: none;
+    max-width: 400px;
+    
+}
+
+.delete{
+    color: #8052ec;
+    
+    height: 100%;
+    width: 15px;
+    border: none;
+    
+    cursor: pointer;
+}
+
+.form-label{
+    color: white;
+}
+
+.form-control{
+    
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    
+}
+
+.filtered{
+    display: none !important;
+}
+
