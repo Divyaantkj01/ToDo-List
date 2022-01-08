@@ -17,9 +17,12 @@
 
         <header class="text-center my-4 text-light">
             <h1 class="mb-4">ToDo List</h1>
-            <form class="search">
-                <input class="form-control m-auto" type="text" name="search" placeholder="Search ToDos">
+            
+            <form class="add text-center my-4">
+                <label class="form-label">Add New ToDo...</label>
+                <input class="form-control m-auto" type="text" name="add">
             </form>
+            
 
         </header>
         <ul class="list-group todos mx-auto text-light">
@@ -40,12 +43,12 @@
 
         
         </ul>
-        <br>
-
-        <form class="add text-center my-4">
-            <label class="form-label">Add New ToDo...</label>
-            <input class="form-control m-auto" type="text" name="add">
+        <br><br>
+        <form class="search">
+            <input class="form-control m-auto" type="text" name="search" placeholder="Search ToDos">
         </form>
+
+        
     </div>
     
     <script src="app.js"></script>
